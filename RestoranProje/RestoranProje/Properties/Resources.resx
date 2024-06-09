@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="WhatsApp-Image-2020-10-02-at-12.04.57-1_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp-Image-2020-10-02-at-12.04.57-1_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7bc6162d-8454-419d-aa5a-301f9efa2346_thumb_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7bc6162d-8454-419d-aa5a-301f9efa2346_thumb_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vegan-köfte-salata_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vegan-köfte-salata_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pexels-photo-20315946_225x526" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pexels-photo-20315946_225x526.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhatsApp-Image-2023-04-24-at-13.34.57_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp-Image-2023-04-24-at-13.34.57_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MGL9258-copy_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MGL9258-copy_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MGL0879-copy_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MGL0879-copy_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="köy-gözleme-patatesli-mozzarellalı_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\köy-gözleme-patatesli-mozzarellalı_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MGL0905-copy_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MGL0905-copy_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MGL9330-copy_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MGL9330-copy_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Muzlu-çilekli-milkshakee_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Muzlu-çilekli-milkshakee_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ÇikolatalıMikshake_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ÇikolatalıMikshake_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhatsApp-Image-2023-05-11-at-12.35.46_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp-Image-2023-05-11-at-12.35.46_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0523_Mediterranean_diet_CV.jpg_225x526" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0523_Mediterranean_diet_CV.jpg_225x526.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hacapuri-pide-limonata_225x526" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hacapuri-pide-limonata_225x526.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="db50d1f3-8a33-495a-bc3f-e809a3bd7c24_thumb_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\db50d1f3-8a33-495a-bc3f-e809a3bd7c24_thumb_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="klasik-pizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\klasik-pizza.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ÇikolatalıMikshake_110x881" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ÇikolatalıMikshake_110x881.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="f94ea2be-3b7b-4f58-84bd-14a8e523853e_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f94ea2be-3b7b-4f58-84bd-14a8e523853e_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MGL0864-copy_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MGL0864-copy_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mystic-Bubble-Iced-Tea-_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mystic-Bubble-Iced-Tea-_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="margherita-pizza_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\margherita-pizza_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tavuklu-sezar-salata_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tavuklu-sezar-salata_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="americano1_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\americano1_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="G0A3377-copy_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\G0A3377-copy_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kestaneli-kahveli-cheesecake_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kestaneli-kahveli-cheesecake_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TATLItiramisu2_110x881" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TATLItiramisu2_110x881.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MAKARNAPenne-artabiata_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MAKARNAPenne-artabiata_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhatsApp-Image-2023-08-14-at-12.50.05_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp-Image-2023-08-14-at-12.50.05_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2958eabc-adc2-4f53-bfea-81ec542cdd3f_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2958eabc-adc2-4f53-bfea-81ec542cdd3f_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screen-Shot-2019-07-05-at-08.38.23_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screen-Shot-2019-07-05-at-08.38.23_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="523173_stock-photo-sex-on-the-beach_225x526" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\523173_stock-photo-sex-on-the-beach_225x526.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MGL9400-copy (1)_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MGL9400-copy (1)_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BALIKsomon-ipsanak-patates-detay_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BALIKsomon-ipsanak-patates-detay_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Happy-Bubble-Iced-Tea_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Happy-Bubble-Iced-Tea_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kaburga-burger_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kaburga-burger_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhatsApp-Image-2020-10-02-at-12.04.57_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp-Image-2020-10-02-at-12.04.57_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e1f1f757-1bc9-4e99-9c97-7a6ee2c3ea30_thumb_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e1f1f757-1bc9-4e99-9c97-7a6ee2c3ea30_thumb_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MGL0872-copy_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MGL0872-copy_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Iced-Amricano-e1601294609157_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iced-Amricano-e1601294609157_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4-peynirli-pizza_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4-peynirli-pizza_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1a0a04b2-e570-4919-9799-86128fe27a9a_thumb_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1a0a04b2-e570-4919-9799-86128fe27a9a_thumb_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menemen_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menemen_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="G0A3530-copy_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\G0A3530-copy_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_0550_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_0550_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="56124786-090f-47bf-80fb-1e81c4e62a28_110x881" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\56124786-090f-47bf-80fb-1e81c4e62a28_110x881.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tavuk-Külbastı_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tavuk-Külbastı_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hippy-Lychee-Iced-Tea_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hippy-Lychee-Iced-Tea_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vegan-cheeseburger_110x881" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vegan-cheeseburger_110x881.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MGL0870-copy_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MGL0870-copy_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ahududu-Hibiscus-Buzlu-Çayy_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ahududu-Hibiscus-Buzlu-Çayy_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MGL9364-copy_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MGL9364-copy_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhatsApp-Image-2020-10-02-at-12.04.56-1_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp-Image-2020-10-02-at-12.04.56-1_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bL9bBC9H_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bL9bBC9H_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fe225549-a3ec-4369-9463-75efbda3dfbc_thumb_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fe225549-a3ec-4369-9463-75efbda3dfbc_thumb_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5321682b-d04b-4e2e-8265-4f248f11de96_thumb_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5321682b-d04b-4e2e-8265-4f248f11de96_thumb_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhatsApp-Image-2020-10-02-at-12.04.54_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp-Image-2020-10-02-at-12.04.54_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="veganporridge-_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\veganporridge-_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MGL9244-copy_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MGL9244-copy_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cikolatali-sufle-cafe_225x526" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cikolatali-sufle-cafe_225x526.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MGL9226-copy_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MGL9226-copy_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MGL8015-copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MGL8015-copy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bonfile-salata_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bonfile-salata_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="çıtır-tavuk-taco_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\çıtır-tavuk-taco_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vegan-mozzarella-cedarli-tost_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vegan-mozzarella-cedarli-tost_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="san-sebeastian_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\san-sebeastian_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="klasik-pizza_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\klasik-pizza_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vegan-cheeseburger_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vegan-cheeseburger_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MGL8064-copy_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MGL8064-copy_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lotus-cheesecake_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lotus-cheesecake_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Photo-21-11-2019-11-51-27_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Photo-21-11-2019-11-51-27_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MGL9400-copy_200x100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MGL9400-copy_200x100.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="humus-guacamole_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\humus-guacamole_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MGL9255-copy_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MGL9255-copy_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brosslife-unsuz-şekersiz-brovnie_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\brosslife-unsuz-şekersiz-brovnie_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mixberry-Milkshake_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mixberry-Milkshake_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MGL9400-copy_330x270" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MGL9400-copy_330x270.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light-kahvaltı-tabağı-_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\light-kahvaltı-tabağı-_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="56124786-090f-47bf-80fb-1e81c4e62a28_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\56124786-090f-47bf-80fb-1e81c4e62a28_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="G0A3507-copy_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\G0A3507-copy_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TATLItiramisu2_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TATLItiramisu2_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="21335c16-1483-4229-a265-aa4783dbb12b_thumb_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\21335c16-1483-4229-a265-aa4783dbb12b_thumb_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MGL8015-copy1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MGL8015-copy1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vegan-köfte-kase_110x88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vegan-köfte-kase_110x88.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
